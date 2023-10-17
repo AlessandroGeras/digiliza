@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        \App\Models\Reservation::factory(10)->create(); // 10 reservations
+        \App\Models\Reservation::factory(8)->create(); // 8 reservations
         
     }
 }
