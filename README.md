@@ -29,9 +29,9 @@ Abaixo imagem da página inicial usando as cores da navbar da própria Digiliza.
 
 
 ### Como usar
-Para criar as reservas, basta preencher o formulário na página inicial.
-Para visualizar as reservas é necessário se cadastrar, sendo que o cadastro já faz o login direto.
-Uma vez logado, pode se voltar a pagina inicial clicando no logo da Digiliza para ver novamente o formulário de criação de reservas.
+Para criar as reservas, basta preencher o formulário na página inicial.<br>
+Para visualizar as reservas é necessário se cadastrar, sendo que o cadastro já faz o login direto.<br>
+Uma vez logado, pode se voltar a pagina inicial clicando no logo da Digiliza para ver novamente o formulário de criação de reservas.<br>
 Uma vez logado, pode se retornar da página inicial ao Dashboard clicando no seu nome na Navbar onde terá a opção de voltar a Dashboard como também a opção de fazer o Logout.
 
 
