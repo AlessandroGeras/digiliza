@@ -21,4 +21,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'dashboard'])->name('dashboard');
+Route::post('/reservation/create', [App\Http\Controllers\ReservationController::class, 'create'])->name('reservation.create');
+
 

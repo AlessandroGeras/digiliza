@@ -22,7 +22,7 @@
                                     <div>
                                         <span>ID: {{ $reservation->id }}</span>
                                     </div>
-                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="d-flex justify-content-between align-items-center">
                                         <div>
                                             <span>Nome: {{ $reservation->name }}</span>
                                         </div>

@@ -12,7 +12,10 @@ class ReservationFactory extends Factory
     public function definition()
     {
         $currentYear = date('Y');
-        $date = $this->faker->dateTimeBetween($currentYear . '-01-01', $currentYear . '-12-31')->format('Y-m-d');
+        $nextYear = date('Y') + 1;
+        $startDate = strtotime(date("Y-m-d"));
+
+        $date = $this->faker->dateTimeBetween(date('Y-m-d', $startDate), $nextYear . '-12-31')->format('Y-m-d');
         $startDateTime = $this->faker->dateTimeBetween($date . ' 18:00:00', $date . ' 23:59:00')->format('Y-m-d H:i:s');
         $endDateTime = $this->faker->dateTimeBetween($startDateTime, $date . ' 23:59:00')->format('Y-m-d H:i:s');
         $email = $this->faker->email;
@@ -25,6 +28,5 @@ class ReservationFactory extends Factory
             'email' => $email,
             'name' => $name,
         ];
-
     }
 }
