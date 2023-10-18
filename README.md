@@ -12,6 +12,27 @@
 * Usar bootstrap
 * Painel administrativo para o gerente do restaurante visualizar as reservas
 
+### Descrição do projeto
+* Para o projeto fiz com que os usuários conseguissem criar as solicitações de reserva sem precisar se cadastrar no site, para facilitar e agilizar o processo.
+Abaixo imagem da página inicial usando as cores da navbar da própria Digiliza
+* Configurado sistema de login Laravel UI
+* Aplicado a validação de horas, dias da semana e verificação de conflito de horários
+* Como bônus foi aplicado validação para a factory não criar seed com data de término da reserva inferior a data de início da reserva
+* Foi também adicionado como bônus, regra para o calendário do formulário de criação de reserva não mostrar datas passadas ao dia atual que o cliente está agendando a reserva para evitar reserva inválida
+* Foi também adicionado como bônus, um filtro para poder visualizar as reservas por ordem de pedido de reserva (ID) ou pela data que será efetivada a reserva
+* Como banco de dados, foi usado o serviço na nuvem ElephantSQL
+* Usado PHP e Javascript junto com Bootstrap
+* Realizado a migration das reservas
+* Foi implementada seed com 8 registros iniciais, podendo ser criado o resto das reservas manualmente
+* Para a parte do painel administrativo, deixei que apenas o gerente se logasse para ver as reservas. Então somente usuários cadastrados poderão ver as reservas.
+
+
+
+### Imagens do projeto
+![Index](https://github.com/AlessandroGeras/digiliza/blob/master/public/images/Index.jpeg)
+![Reservas](https://github.com/AlessandroGeras/digiliza/blob/master/public/images/Reservas.jpeg)
+
+
 
 ### Instalação de dependências
 ```
